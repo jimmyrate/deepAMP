@@ -1,3 +1,3 @@
 # deepAMP
 
-The trained pre-training model is uploaded to https://drive.google.com/file/d/1xL8GE2mnrYye1-KQHhPnkInUhxNiXMwX/view?usp=drive_link
+The trained model is uploaded to https://drive.google.com/drive/folders/1rtlc8DcBeV6yOxmlXIwjoT6VXuYgaIFg?usp=drive_link
