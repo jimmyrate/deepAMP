@@ -13,11 +13,30 @@ The following packages are required to run the code:
 
 To install the dependencies, run:
 
-```bash
 pip install -r requirements.txt
 
+deepAMP
+├── code
+│   ├── DataPath.py
+│   ├── configer.py
+│   ├── dataPre.py
+│   ├── dataReady.py
+│   ├── do_pack_sample.py
+│   ├── do_sample.py
+│   ├── do_train.py
+│   └── rwHelper.py
+├── data                             
+│   ├── AMP_train_pairs.csv           # deepAMP-AOM training set
+│   ├── penetratin_train_pairs.csv    # deepAMP-POM training set
+│   └── uni_all_60.zip                # deepAMP-general training set
+├── src                               
+│   ├── models                        # Model definitions
+│   ├── DataProcessTools.py
+│   ├── utils.py
+│   └── warmupScheduler.py
+│ 
+├── requirements.txt
+└── README.md                         # This README file
 
-
-
-
+## Trained model
 The trained model is uploaded to https://drive.google.com/drive/folders/1rtlc8DcBeV6yOxmlXIwjoT6VXuYgaIFg?usp=drive_link
