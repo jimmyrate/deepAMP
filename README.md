@@ -36,9 +36,9 @@ pip install -r requirements.txt
 
 ├── data                             
 
-│   ├── AMP_train_pairs.csv           # deepAMP-AOM training set
+│   ├── AMP_train_data.csv           # deepAMP-AOM original training dataset
 
-│   ├── penetratin_train_pairs.csv    # deepAMP-POM training set
+│   ├── penetratin_train_data.csv    # deepAMP-POM original training dataset
 
 │   └── uni_all_60.zip                # deepAMP-general training set
 
