@@ -32,6 +32,8 @@ pip install -r requirements.txt
 
 │   ├── do_train.py      # Model training
 
+│   ├── count_fitness_value.py  # count fitness value
+
 │   └── rwHelper.py
 
 ├── data                             
@@ -60,3 +62,35 @@ pip install -r requirements.txt
 
 ## Trained model
 The trained model is uploaded to https://drive.google.com/drive/folders/1rtlc8DcBeV6yOxmlXIwjoT6VXuYgaIFg?usp=drive_link
+
+
+## Usage
+Select the dataset for training and the parameters in code/dataPre.py, and then train the model using code/do_train.py
+
+## Pretraining
+1. select dataset
+   In code/dataPre.py set the parameter: dataset='uniport_all_60'
+2. run code/do_train.py
+
+## Finetuning-AOM
+1. select dataset
+   In code/dataPre.py set the parameter: dataset='random_pair'
+2. run code/do_train.py
+
+## Finetuning-POM
+1. select dataset
+   In code/dataPre.py set the parameter: dataset='random_chem_penetratin_pair'
+2. run code/do_train.py
+
+## Reference
+@article{li2024foundation,
+  title={A foundation model identifies broad-spectrum antimicrobial peptides against drug-resistant bacterial infection},
+  author={Li, Tingting and Ren, Xuanbai and Luo, Xiaoli and Wang, Zhuole and Li, Zhenlu and Luo, Xiaoyan and Shen, Jun and Li, Yun and Yuan, Dan and Nussinov, Ruth and others},
+  journal={Nature Communications},
+  volume={15},
+  number={1},
+  pages={7538},
+  year={2024},
+  publisher={Nature Publishing Group UK London}
+}
+
