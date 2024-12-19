@@ -22,25 +22,25 @@ pip install -r requirements.txt
 
 │   ├── configer.py
 
-│   ├── dataPre.py
+│   ├── dataPre.py         # Parameter setting and model selection
 
 │   ├── dataReady.py
 
 │   ├── do_pack_sample.py
 
-│   ├── do_sample.py
+│   ├── do_sample.py     # Model Optimization Generation
 
-│   ├── do_train.py
+│   ├── do_train.py      # Model training
 
 │   └── rwHelper.py
 
 ├── data                             
 
-│   ├── AMP_train_data.csv           # deepAMP-AOM original training dataset
+│   ├── AOM-training-pairs.txt           # deepAMP-AOM training dataset
 
-│   ├── penetratin_train_data.csv    # deepAMP-POM original training dataset
+│   ├── POM-training-pairs.txt           # deepAMP-POM original training dataset
 
-│   └── uni_all_60.zip                # deepAMP-general training set
+│   └── uni_all_60.zip                   # deepAMP-general training set
 
 ├── src                               
 
