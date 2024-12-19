@@ -83,6 +83,7 @@ Select the dataset for training and the parameters in code/dataPre.py, and then 
 2. run code/do_train.py
 
 ## Reference
+
 @article{li2024foundation,
   title={A foundation model identifies broad-spectrum antimicrobial peptides against drug-resistant bacterial infection},
   author={Li, Tingting and Ren, Xuanbai and Luo, Xiaoli and Wang, Zhuole and Li, Zhenlu and Luo, Xiaoyan and Shen, Jun and Li, Yun and Yuan, Dan and Nussinov, Ruth and others},
