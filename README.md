@@ -13,7 +13,7 @@ The following packages are required to run the code:
 
 To install the dependencies, run:
 
-pip install -r requirements.txt
+conda env create -f environment.yml
 
 ## deepAMP
 ├── code
